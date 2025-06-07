@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav.navbar {
+  background: #333;
+  color: white;
+  padding: 0px 30px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* nav.navbar a {
+  color: white;
+  margin-left: 1rem;
+  text-decoration: none;
+} */
+.navbar a {
+  color: white;
+  margin-left: 1rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #ddd;
+}
+
+/* Active link style */
+.active-link {
+  color: #ffd700; /* gold/yellow or any highlight color */
+  font-weight: bold;
+  border-bottom: 2px solid #ffd700;
+}
+
+
+.blog-card, .blog-form {
+  border: 1px solid #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+.blog-form input, .blog-form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+.blog-form button {
+  padding: 0.5rem 1rem;
+  background: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
