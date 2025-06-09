@@ -8,7 +8,7 @@ function Navbar() {
       <div>
         <NavLink
           to="/"
-          end  // exact match for home
+          end  
           className={({ isActive }) => (isActive ? 'active-link' : undefined)}
         >
           Home

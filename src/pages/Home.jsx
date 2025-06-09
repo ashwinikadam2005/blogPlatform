@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import BlogCard from '../components/BlogCard';
 import { getPosts } from '../utils/storage';
-import './Home.css';  // Ensure this import exists
+import './Home.css';  
 
 function Home() {
   const [blogs, setBlogs] = useState([]);
