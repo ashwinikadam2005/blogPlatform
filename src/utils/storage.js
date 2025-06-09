@@ -30,7 +30,7 @@ const staticBlogs = [
   title: "The Importance of Mental Health Awareness",
   author: "Emily Johnson",
   category: "Health & Wellness",
-  coverImage: "https://via.placeholder.com/600x300?text=Mental+Health+Awareness",
+  coverImage: "https://th.bing.com/th/id/OIP.z4LIvoAFvMVJtaRuzgicvAHaFD?rs=1&pid=ImgDetMain",
   content: "Mental health awareness is crucial in today's fast-paced world. It involves recognizing the signs of mental health issues, understanding their impact, and knowing how to seek help. Promoting mental well-being can lead to a more supportive and empathetic society."
 },
 {
@@ -38,7 +38,7 @@ const staticBlogs = [
   title: "Tips for Sustainable Living",
   author: "Michael Lee",
   category: "Environment",
-  coverImage: "https://via.placeholder.com/600x300?text=Sustainable+Living",
+  coverImage: "https://wallpapercave.com/wp/wp8232052.jpg",
   content: "Adopting sustainable living practices can significantly reduce your environmental footprint. Simple actions like reducing waste, conserving energy, and supporting eco-friendly products contribute to a healthier planet for future generations."
 },
 {
@@ -46,7 +46,7 @@ const staticBlogs = [
   title: "Exploring the Benefits of Yoga",
   author: "Sophia Martinez",
   category: "Lifestyle",
-  coverImage: "https://via.placeholder.com/600x300?text=Yoga+Benefits",
+  coverImage: "https://th.bing.com/th/id/OIP.pmncn4m8u-e5J7HgoFbywwHaE7?o=7rm=3&rs=1&pid=ImgDetMain",
   content: "Yoga offers numerous benefits, including improved flexibility, stress reduction, and enhanced mental clarity. Incorporating yoga into your daily routine can lead to a balanced and harmonious lifestyle."
 },
 
