@@ -1,11 +1,11 @@
-import React from 'react';
-import { Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import Create from './pages/Create';
-import ViewPost from './pages/ViewPost';
-import EditPost from './pages/EditPost';
-import Categories from './pages/Categories';
-import Navbar from './components/Navbar';
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Create from "./pages/Create";
+import ViewPost from "./pages/ViewPost";
+import EditPost from "./pages/EditPost";
+import Categories from "./pages/Categories";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (

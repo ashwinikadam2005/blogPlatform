@@ -1,5 +1,5 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
+import React from "react";
+import { NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -8,22 +8,22 @@ function Navbar() {
       <div>
         <NavLink
           to="/"
-          end  
-          className={({ isActive }) => (isActive ? 'active-link' : undefined)}
+          end
+          className={({ isActive }) => (isActive ? "active-link" : undefined)}
         >
           Home
         </NavLink>
 
         <NavLink
           to="/create"
-          className={({ isActive }) => (isActive ? 'active-link' : undefined)}
+          className={({ isActive }) => (isActive ? "active-link" : undefined)}
         >
           Create
         </NavLink>
 
         <NavLink
           to="/categories"
-          className={({ isActive }) => (isActive ? 'active-link' : undefined)}
+          className={({ isActive }) => (isActive ? "active-link" : undefined)}
         >
           Categories
         </NavLink>

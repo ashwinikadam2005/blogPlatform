@@ -1,7 +1,7 @@
-import React from 'react';
-import { useNavigate } from 'react-router-dom';
-import BlogForm from '../components/BlogForm';
-import { getPosts, savePosts } from '../utils/storage';
+import React from "react";
+import { useNavigate } from "react-router-dom";
+import BlogForm from "../components/BlogForm";
+import { getPosts, savePosts } from "../utils/storage";
 
 function Create() {
   const navigate = useNavigate();
@@ -10,10 +10,21 @@ function Create() {
     const blogs = getPosts();
     data.id = Date.now();
     savePosts([...blogs, data]);
-    navigate('/');
+    navigate("/");
   };
 
-  return <BlogForm initialData={{ title: '', author: '', category: '', coverImage: '', content: '' }} onSubmit={handleCreate} />;
+  return (
+    <BlogForm
+      initialData={{
+        title: "",
+        author: "",
+        category: "",
+        coverImage: "",
+        content: "",
+      }}
+      onSubmit={handleCreate}
+    />
+  );
 }
 
 export default Create;
