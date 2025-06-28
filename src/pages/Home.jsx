@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react';
-import BlogCard from '../components/BlogCard';
-import { getPosts } from '../utils/storage';
-import './Home.css';  
+import React, { useEffect, useState } from "react";
+import BlogCard from "../components/BlogCard";
+import { getPosts } from "../utils/storage";
+import "./Home.css";
 
 function Home() {
   const [blogs, setBlogs] = useState([]);
@@ -14,7 +14,7 @@ function Home() {
     <div>
       <h2>All Blogs</h2>
       <div className="blog-list">
-        {blogs.map(blog => (
+        {blogs.map((blog) => (
           <BlogCard key={blog.id} blog={blog} />
         ))}
       </div>
